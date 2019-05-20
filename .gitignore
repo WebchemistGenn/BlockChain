@@ -1,6 +1,7 @@
 # Yarn Integrity file
 .yarn-integrity
 
+node_modules
 
 .env
 dist
