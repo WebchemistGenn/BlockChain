@@ -1,0 +1,21 @@
+{
+  "name": "blockchain",
+  "version": "0.1.0",
+  "description": "Create BlockChain, NodeJS with Typescript",
+  "main": "index.js",
+  "repository": "git@github.com:WebchemistGenn/BlockChain.git",
+  "author": "yoonwonyoul <yoonwonyoul@webchemist.net>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/crypto-js": "^3.1.43",
+    "tsc-watch": "^2.2.1",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js \" "
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
