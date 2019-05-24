@@ -2,5 +2,5 @@
 
 Create BlockChain, NodeJS with Typescript
 
-- [ ] Create Block
+- [x] Create Block
 - [ ] Create P2P
